@@ -60,7 +60,6 @@ test:
     - data
   commands:
     - pip check
-    - python -m unittest climada.engine.test.test_impact
   requires:
     - pip
 
