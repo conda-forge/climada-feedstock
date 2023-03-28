@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
@@ -57,9 +57,11 @@ requirements:
 test:
   imports:
     - climada
-    - data
+  source_files:
+    - climada
   commands:
     - pip check
+    - python3 -m unittest climada.engine.test.test_impact
   requires:
     - pip
 
