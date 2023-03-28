@@ -59,6 +59,8 @@ test:
     - climada
   source_files:
     - climada
+  files:
+    - data
   commands:
     - pip check
     - python3 -m unittest climada.engine.test.test_impact
