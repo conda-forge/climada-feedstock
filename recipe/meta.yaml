@@ -59,6 +59,7 @@ test:
     - climada
   source_files:
     - climada
+    - data
   files:
     - data
   commands:
