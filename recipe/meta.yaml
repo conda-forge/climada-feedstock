@@ -39,10 +39,10 @@ requirements:
     - pint =0.20
     - proj =9.0
     - pycountry =22.3
-    - pyepsg = 0.4
+    - pyepsg =0.4
     - pytables =3.7
     - python =3.9
-    - pyxlsb = 1.0
+    - pyxlsb =1.0
     - rasterio =1.2
     - requests =2.28
     - salib =1.3
