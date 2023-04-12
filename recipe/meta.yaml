@@ -19,7 +19,7 @@ requirements:
     - python =3.9
     - pip
   run:
-    - bottleneck >=1.3
+    - bottleneck =1.3
     - cartopy =0.20
     - cfgrib =0.9.9
     - contextily =1.3
@@ -28,7 +28,7 @@ requirements:
     - geopandas =0.12
     - h5py =3.7
     - haversine =2.8
-    - matplotlib =3.5
+    - matplotlib =3.3
     - mccabe =0.6
     - netcdf4 =1.6
     - numba =0.56
