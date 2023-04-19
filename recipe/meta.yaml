@@ -60,9 +60,12 @@ requirements:
 test:
   imports:
     - climada
+  source_files:
+    - climada
     - data
   commands:
     - pip check
+    - python3 -m unittest climada.engine.test.test_impact
   requires:
     - pip
 
