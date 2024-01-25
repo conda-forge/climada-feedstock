@@ -44,7 +44,7 @@ requirements:
     - pint =0.22
     - pycountry =22.3
     - pyepsg =0.4
-    - pyproj =3.6
+    - pyproj =3.5
     - pytables =3.7
     - python =3.9
     - pyxlsb =1.0
