@@ -27,10 +27,10 @@ requirements:
     - dask =2024
     - eccodes =2.27
     - gdal =3.6
-    - geopandas =0.14        
+    - geopandas =0.14
     - h5py =3.8
     - haversine =2.8
-    - matplotlib-base =3.8   
+    - matplotlib-base =3.8
     - netcdf4 =1.6
     - numba =0.59
     - numexpr =2.9
