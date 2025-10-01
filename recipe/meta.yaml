@@ -35,6 +35,7 @@ requirements:
     - geopandas =1.1
     - h5py =3.13
     - haversine =2.9
+    - lxml =6.0
     - matplotlib-base =3.10
     - netcdf4 =1.7
     - numba =0.62
