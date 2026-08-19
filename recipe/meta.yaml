@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 3
+  number: 4
 
 requirements:
   host:
@@ -22,6 +22,7 @@ requirements:
     - setuptools-scm
   run:
     - python >={{ python_min }},<3.13
+    - affine =2.4
     - bayesian-optimization =1.5
     - bottleneck =1.6
     - cartopy =0.25
