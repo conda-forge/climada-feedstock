@@ -79,6 +79,7 @@ test:
     - pip check
     - python3 -m unittest climada.engine.test.test_impact
   requires:
+    - lxml
     - pip
     - python {{ python_min }}
 
