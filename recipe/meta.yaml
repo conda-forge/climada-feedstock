@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/climada-{{ version }}.tar.gz
-  sha256: cda2596f507c8da881a5371665ec1187eb5be90483204f365bb4e92f0614be95
+  sha256: 37ad507618c3a05bfab9e2ad77c96f8a7be22ca52ff06c1fcd11c22c079c2f07
 
 build:
   noarch: python
